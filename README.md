@@ -1,4 +1,4 @@
-# HealthOS — Healthcare Management Platform
+# Raga-ai — Healthcare Management Platform
 
 A modern B2B healthcare SaaS frontend built with React 19, TypeScript, Vite, Tailwind CSS v4, and Firebase Authentication.
 
