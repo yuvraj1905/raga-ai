@@ -72,28 +72,6 @@ Without Firebase configured, use the demo credentials shown on the login page:
 - Email: `demo@healthos.app`
 - Password: `demo123`
 
-## Netlify Deployment
-
-### Option A: Netlify CLI
-
-```bash
-npm install -g netlify-cli
-npm run build
-netlify deploy --prod --dir=dist
-```
-
-Set environment variables in Netlify dashboard: Site → Settings → Environment variables.
-
-### Option B: Git-connected deploy
-
-1. Push to GitHub/GitLab
-2. Connect repo in Netlify dashboard
-3. Build command: `npm run build`
-4. Publish directory: `dist`
-5. Add Firebase env vars in Site settings → Environment variables
-
-The `netlify.toml` handles SPA redirects automatically.
-
 ## Project Structure
 
 ```
@@ -124,7 +102,3 @@ The app registers a service worker (`/sw.js`) on load. To test notifications:
 2. Click **Notifications** button
 3. Click **Enable Notifications** (browser will prompt for permission)
 4. Use the **Simulate** buttons to trigger test notifications
-
-## License
-
-MIT
